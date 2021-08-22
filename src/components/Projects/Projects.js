@@ -1,91 +1,91 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particle';
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Eggstraterrestrial from '../../Assets/Projects/Eggstraterrestrial.png';
+import Alien_Invasion from '../../Assets/Projects/Alien_Invasion.png';
+import CourseSpot from '../../Assets/Projects/CourseSpot.png';
+import Social from '../../Assets/Projects/Social.png';
+import ECart from '../../Assets/Projects/ECart.png';
+import Firebase from '../../Assets/Projects/Firebase.png';
 
 function Projects() {
-  return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
-            />
-          </Col>
+    return (
+        <Container fluid className='project-section'>
+            <Particle />
+            <Container>
+                <h1 className='project-heading'>
+                    My Recent <strong className='purple'>Works </strong>
+                </h1>
+                <p style={{ color: 'white' }}>
+                    Here are a few projects I've worked on recently.
+                </p>
+                <Row
+                    style={{ justifyContent: 'center', paddingBottom: '10px' }}
+                >
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={Social}
+                            isBlog={false}
+                            title='Social'
+                            description='A complate A-Z Social Media Web Application with Real Time Chat. Core Social Web App Features like CRUD Operation on Post,Profile and Comments Developed along with Real Time Chat Feature , Like/Unlike Post & Comments and ability to Save Post. Developed Using MERN Stack , Redux , SocketIO'
+                            link='https://github.com/utsavk28/Social'
+                        />
+                    </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={ECart}
+                            isBlog={false}
+                            title='E-Cart'
+                            description='A Complete E-Commerce Website with Cart and Payment Gateway. Having features which allows user to add/remove items from the cart with Integrated Payment Gateway. Developed Using React , Bootstrap , Redux , FakeStore API and StripeJs'
+                            link='https://github.com/utsavk28/E-Cart'
+                        />
+                    </Col>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={CourseSpot}
+                            isBlog={false}
+                            title='CourseSpot'
+                            description='There are so many online educational platforms offering courses on various topics. It becomes a tedious task to go to each site and search for courses. COURSESPOT is a web app that shows most of the courses available on internet of various domains. Developed Using Flask , BeautifulSoup , SQL , Jinja2 , HTML , CSS , JS and Bootstrap'
+                            link='https://github.com/utsavk28/CodeCrafters-CourseSuggestingWebApp'
+                        />
+                    </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={Alien_Invasion}
+                            isBlog={false}
+                            title='Alien_Invasion'
+                            description='Developed a 2D Shooting Game in Python using Pygame.In this game the player shoot downs fleet of aliens each level. The higher the level gets , the faster the ship and aliens fleets gets and so does the game.'
+                            link='https://github.com/utsavk28/Alien_Invasion'
+                        />
+                    </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={Firebase}
+                            isBlog={false}
+                            title='FireChat'
+                            description='A Real Time Chat Web Application with Google Authentication. Developed Real Time Chat Features using Firebase and Integrated Google Authentication in the Web App. Developed Using Firebase , React and Bootstrap'
+                            link='https://github.com/utsavk28/FireChat'
+                        />
+                    </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
-  );
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={Eggstraterrestrial}
+                            isBlog={false}
+                            title='Eggstraterrestrial'
+                            description='An Simple Animation Website of an Egg with space ship theme moving in space. Developed Using Plain HTML and CSS'
+                            link='https://github.com/utsavk28/Eggstraterrestrial'
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </Container>
+    );
 }
 
 export default Projects;
