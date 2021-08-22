@@ -22,7 +22,7 @@ function Toolstack() {
             </Col>
             <Col xs={4} md={2} className='tech-icons'>
                 <span
-                    class='iconify'
+                    className='iconify'
                     data-icon='simple-icons:googlecolab'
                 ></span>
             </Col>

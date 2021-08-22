@@ -68,7 +68,7 @@ function Techstack() {
 
             <Col xs={4} md={2} className='tech-icons'>
                 <span
-                    class='iconify'
+                    className='iconify'
                     data-icon='simple-icons:scikitlearn'
                 ></span>
             </Col>

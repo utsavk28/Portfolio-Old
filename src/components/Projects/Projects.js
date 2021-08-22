@@ -29,7 +29,7 @@ function Projects() {
                             imgPath={Social}
                             isBlog={false}
                             title='Social'
-                            description='A complate A-Z Social Media Web Application with Real Time Chat. Core Social Web App Features like CRUD Operation on Post,Profile and Comments Developed along with Real Time Chat Feature , Like/Unlike Post & Comments and ability to Save Post. Developed Using MERN Stack , Redux , SocketIO'
+                            description='A Complete A-Z Social Media Web Application with Real Time Chat functionality. Core Social Web App Features like CRUD Operation on Post, Profile and Comments Developed along with Real Time Chat Feature , Like/Unlike Post & Comments and ability to Save Post. Developed Using MERN Stack , Redux , SocketIO'
                             link='https://github.com/utsavk28/Social'
                         />
                     </Col>
@@ -39,7 +39,7 @@ function Projects() {
                             imgPath={ECart}
                             isBlog={false}
                             title='E-Cart'
-                            description='A Complete E-Commerce Website with Cart and Payment Gateway. Having features which allows user to add/remove items from the cart with Integrated Payment Gateway. Developed Using React , Bootstrap , Redux , FakeStore API and StripeJs'
+                            description='An E-Commerce Website with Cart and Payment Gateway. Having features which allows user to add/remove items from the Cart with Integrated Payment Gateway. Products fetched using FakeStore Api and Inlisting them onto various Categorical Pages. Developed Using React , Bootstrap , Redux , FakeStore API and StripeJs'
                             link='https://github.com/utsavk28/E-Cart'
                         />
                     </Col>
@@ -48,7 +48,7 @@ function Projects() {
                             imgPath={CourseSpot}
                             isBlog={false}
                             title='CourseSpot'
-                            description='There are so many online educational platforms offering courses on various topics. It becomes a tedious task to go to each site and search for courses. COURSESPOT is a web app that shows most of the courses available on internet of various domains. Developed Using Flask , BeautifulSoup , SQL , Jinja2 , HTML , CSS , JS and Bootstrap'
+                            description='There are so many online educational platforms offering courses on various topics. It becomes a tedious task to go to each site and search for courses. COURSESPOT is a web app that shows most of the courses available on internet of various domains. Developed Using Flask, BeautifulSoup, SQL, Jinja2, HTML, CSS, JS and Bootstrap'
                             link='https://github.com/utsavk28/CodeCrafters-CourseSuggestingWebApp'
                         />
                     </Col>
@@ -58,7 +58,7 @@ function Projects() {
                             imgPath={Alien_Invasion}
                             isBlog={false}
                             title='Alien_Invasion'
-                            description='Developed a 2D Shooting Game in Python using Pygame.In this game the player shoot downs fleet of aliens each level. The higher the level gets , the faster the ship and aliens fleets gets and so does the game.'
+                            description='Developed a 2D Shooting Game in Python using Pygame.In this game the player shoot downs fleet of aliens each level. The higher the level gets  the faster the ship and aliens fleets moves and so does the game.'
                             link='https://github.com/utsavk28/Alien_Invasion'
                         />
                     </Col>
@@ -78,7 +78,7 @@ function Projects() {
                             imgPath={Eggstraterrestrial}
                             isBlog={false}
                             title='Eggstraterrestrial'
-                            description='An Simple Animation Website of an Egg with space ship theme moving in space. Developed Using Plain HTML and CSS'
+                            description='An Simple Animation Website of an Egg as space ship moving in space. Developed Using Plain HTML and CSS'
                             link='https://github.com/utsavk28/Eggstraterrestrial'
                         />
                     </Col>

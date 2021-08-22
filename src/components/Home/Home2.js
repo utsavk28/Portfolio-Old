@@ -21,22 +21,18 @@ function Home2() {
                         </h1>
                         <p className='home-about-body'>
                             I'm a Pre Final Year Undergraduate student in
-                            Information Technology at VJTI, Mumbai. Interested
-                            in coding, learning and building stuff. Currently
-                            into web development and trying my hands on machine
-                            learning.
-                            <br />
-                            <br />I am fluent in classics like
+                            Information Technology at{' '}
+                            <i>
+                                <b className='purple'>VJTI, Mumbai.</b>{' '}
+                            </i>{' '}
+                            Interested in coding, learning and building stuff.
+                            My field of Interest's are in{' '}
                             <i>
                                 <b className='purple'>
-                                    {' '}
-                                    C++, Javascript and Python.{' '}
-                                </b>
-                            </i>
-                            <br />
-                            <br />
-                            My field of Interest's are in Competitive
-                            Programming and building new &nbsp;
+                                    Competitive Programming
+                                </b>{' '}
+                            </i>{' '}
+                            and building new &nbsp;
                             <i>
                                 <b className='purple'>
                                     Web Technologies and Products.{' '}
@@ -45,6 +41,14 @@ function Home2() {
                                 <b className='purple'>
                                     Machine Learning and Natural Launguage
                                     Processing.
+                                </b>
+                            </i>
+                            <br />
+                            <br />I am fluent in classics like
+                            <i>
+                                <b className='purple'>
+                                    {' '}
+                                    C++, Javascript and Python.{' '}
                                 </b>
                             </i>
                             <br />
